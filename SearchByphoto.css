@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.resultcard{
+    height:30vh;
+    width: 20vw;
+    border: 2px solid black;
+}
+.resultcard img{
+    height:20vh;
+    width:100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputs{
+    text-align: center;
+    margin-top: 1em;
+}
+.inputs input{
+    height:2em;
+    width:50ch;
+    padding:1em;
+}
+
+#searchbtn{
+    background-color: black;
+padding:1em;
+color: greenyellow;
+border: none;
+border-radius: 10px;
+font-weight: 800;
+}
+
+#loadmore{
+/* margin: auto; */
+margin-left: 45vw;
+background-color: rgb(52, 47, 47);
+padding:1em;
+color: greenyellow;
+border: none;
+border-radius: 10px;
+font-weight: 800;
+}
+
+#photocntainer{
+    width:100vw;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+.resultcard{
+    margin-top:1vh ;
+    background-color: gray;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 1px 15px 0px rgba(193, 4, 4, 0.75);
+-moz-box-shadow: -1px 1px 15px 0px rgba(193, 4, 4, 0.75);
+box-shadow: -1px 1px 15px 0px rgba(193, 4, 4, 0.75);
+}
+.resultcard img{
+    object-fit: cover;
+    height:80%;
+    border-radius:10px 10px 0px 0px;
+}
+
+.resultcard p{
+    text-align: center;
+  
+    font-weight: 800;
+}
